@@ -539,7 +539,7 @@ VALUES_SKILLS = {
     }
 }
 
-logo_data = get_image_base64("school.logo.png")
+logo_data = get_image_base64("school_logo.png")
 
 # --- SIDEBAR WITH NAVIGATION ---
 with st.sidebar:
@@ -1252,4 +1252,5 @@ elif choice == "📐 Teaching Aids":
                 """, unsafe_allow_html=True)
 
 # --- FOOTER ---
+
 st.markdown('<div class="footer">▶ POWERED BY ADVANCED R&D | © 2026 TAQWA & AQSA | PROFESSIONAL EDUCATION PORTAL ◀</div>', unsafe_allow_html=True)
